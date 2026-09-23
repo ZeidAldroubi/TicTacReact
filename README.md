@@ -19,9 +19,11 @@ Open the local URL shown in the terminal.
 
 Starting from the official tutorial's structure, I added:
 
-Restart button — resets the board and active player back to their initial state.
-Draw message — checks if all nine squares are filled with no winner, and displays "It's a draw!" instead of leaving the status blank.
-Custom visual theme — replaced the tutorial's plain layout with a card-style board inside a centered game panel
+-Restart button: resets the board and active player back to their initial state.
+
+-Draw message: checks if all nine squares are filled with no winner, and displays "It's a draw!" instead of leaving the status blank.
+
+-Custom visual theme: replaced the tutorial's plain layout with a card-style board inside a centered game panel
 ## What I Learned
 
 Building this project helped me understand how state and props work together in React. I learned that state should live in the component that owns the data (in this case, Game), while other components like Board and Square just receive that data through props and call functions to request changes, rather than managing their own state. I also learned why you should never mutate state directly. Overall, this project gave me a much clearer picture of how a UI updates in response to user interaction, one step at a time.
