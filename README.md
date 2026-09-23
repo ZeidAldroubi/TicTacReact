@@ -1,18 +1,28 @@
 # Tic-Tac-Toe
 
-A simple two-player Tic-Tac-Toe game built with React and Vite.
+## Overview
 
-## Requirements
+A two-player React game with a 3x3 board, alternating X and O turns, winner detection, and protection against occupied-square moves or moves after a win.
 
-- [Node.js](https://nodejs.org/) installed
+## Run It
 
-## Run locally
-
-From this project folder, run:
+Requires [Node.js](https://nodejs.org/). From this folder, run:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the `localhost` URL shown in the terminal. Press `Ctrl+C` to stop the app.
+Open the local URL shown in the terminal.
+
+## My Contribution
+
+I built the game logic and interface, including the restart button, draw message, status display, and custom visual theme.
+
+## What I Learned
+
+I learned how to manage the board and current player with React state. I also learned to check for a draw by confirming that every square is filled without a winner, and to reset the game state when the restart button is clicked.
+
+## References
+
+The game structure was based on the [official React Tic-Tac-Toe tutorial](https://react.dev/learn/tutorial-tic-tac-toe).
