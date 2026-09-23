@@ -21,7 +21,7 @@ I built the game logic and interface, including the restart button, draw message
 
 ## What I Learned
 
-I learned how to manage the board and current player with React state. I also learned to check for a draw by confirming that every square is filled without a winner, and to reset the game state when the restart button is clicked.
+I learned how to use React state to store the board and track the active player. After each move, the app checks the eight possible winning lines and whether all nine squares are filled. The restart button resets the board and active player to their initial state.
 
 ## References
 
